@@ -1,0 +1,411 @@
+@media only screen and (min-width: 768px) and (max-width:  1279px) {
+	.header__logo {
+		position: initial;
+		top: initial;
+	}
+	.js-replace__item--active,
+	.js-replace__item--active .js-replace__content {
+		transform: initial;
+	}
+	.logo--invert {
+		display: none;
+	}
+
+	.content-row {
+		max-width: 80%;
+	}
+
+	main .section--1 {
+		padding: 60px 0;
+		background-size: 150%;
+    	background-position: 60% bottom;
+	}
+	main .section--1 h1 {
+		font-size: 50px;
+		max-width: 450px;
+	}
+	main .section--1 p {
+		font-size: 18px;
+		line-height: 29px;
+		max-width: 430px;
+	}
+	main .section--1 .btn-green {
+		font-size: 20px;
+		padding: 13px 55px;
+	}
+
+	main .section--2 ul {
+		flex-wrap: wrap;
+	    justify-content: center;
+	    column-gap: 20px;
+	    row-gap: 20px;
+	}
+
+	main .section--3 .slick-item-with-iamge {
+		flex-direction: column;
+	}
+	main .section--3 .slick-item-with-iamge img {
+		margin: 0 auto 15px;
+	}
+	main .section--3 .slick-item-with-iamge .slick-text {
+		text-align: center;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author {
+		flex-direction: column;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author p {
+		text-align: center;
+		line-height: 1.25;
+		margin-bottom: 5px;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author .spacer {
+		display: none;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author a {
+		margin-top: 15px;
+	}
+
+	main .section--4 .needs-wrapper {
+		grid-template-columns: 50% 50%;
+	}
+	main .section--4 .needs-item .title {
+		font-weight: bold;
+	}
+
+	main .section--5 .text, main .section--9 .text {
+		font-size: 34px;
+	}
+
+	main .section--6 {
+		padding: 100px 0;
+	}
+	main .section--6 .title {
+		max-width: 450px;
+		font-size: 38px;
+	}
+	main .section--6 .text {
+		max-width: 430px;
+		font-size: 18px;
+	}
+
+	main .section--7 .professionals-wrapper img {
+		max-width: 127px;
+		margin-bottom: 15px;
+	}
+	main .section--7 .professionals-wrapper .name,
+	main .section--7 .professionals-wrapper .title {
+		font-size: 20px;
+		white-space: nowrap;
+	}
+
+	main .section--8 {
+		padding: 60px 0;
+	}
+	main .section--8 .perks-item img {
+		max-width: 190px;
+	}
+	main .section--8 .perks-item .title {
+		font-size: 34px;
+	}
+	main .section--8 .perks-item .text {
+		font-size: 18px;
+		line-height: 29px;
+	}
+
+	main .section--10 {
+	    padding: 80px 0 0;
+	}
+	main .section--10 .program-wrapper {
+		grid-template-columns: 100%;
+		justify-content: center;
+	}
+	main .section--10 .program-wrapper .program-item {
+		padding: 50px 30px 30px;
+		margin-bottom: 40px;
+	}
+	main .section--10 .program-wrapper .program-item:nth-child(2) {
+		transform: scale(1.0);
+		margin-top: 40px;
+	}
+
+	main .section--12 .title {
+		font-size: 36px;
+	}
+	main .section--12 .question {
+		font-size: 22px;
+	}
+	main .section--12 .answer {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width:  767px) {
+	header .content-row {
+		padding: 0 30px;
+	}
+	header img {
+		width: 160px;
+	}
+	header .content-wrapper {
+		padding: 25px 0;
+		align-items: flex-end;
+	}
+	.header__logo {
+		position: initial;
+		top: initial;
+	}
+	.js-replace__item--active,
+	.js-replace__item--active .js-replace__content {
+		transform: initial;
+	}
+	.logo--invert {
+		display: none;
+	}
+
+	main .section--1 {
+    	background-image: url(../images/main-banner-mobile.png);
+    	padding: 40px 15px 300px;
+	}
+	main .section--1 h1 {
+		font-size: 46px;
+		margin-bottom: 15px;
+	}
+	main .section--1 p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+	main .section--1 .btn-green {
+		white-space: nowrap;
+	    padding: 14px 0;
+	    width: 100%;
+	    text-align: center;
+	}
+	main .section--1 .btn-play {
+		width: initial;
+	}
+
+	main .section--2 {
+		padding: 40px 0;
+	}
+	main .section--2 ul {
+		flex-wrap: wrap;
+	    justify-content: center;
+	    column-gap: 20px;
+	    row-gap: 20px;
+	    flex-direction: row-reverse;
+	}
+
+	main .section--3 .slick-wrapper {
+		align-items: baseline;
+	}
+	main .section--3 .slick-item-with-iamge {
+		flex-direction: column;
+	}
+	main .section--3 .slick-item-with-iamge img {
+		margin: 0 auto 20px;
+		max-width: 127px;
+	}
+	main .section--3 .slick-item-with-iamge .slick-text {
+		text-align: center;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author {
+		flex-direction: column;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author p {
+		text-align: center;
+		line-height: 1.25;
+		margin-bottom: 5px;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author .spacer {
+		display: none;
+	}
+	main .section--3 .slick-item-with-iamge .slick-author a {
+		margin-top: 15px;
+	}
+	main .section--3 .slick-wrapper .btn-nav {
+		margin: 0;
+		position: relative;
+		top: 60px;
+	}
+
+	main .section--4 {
+		padding: 40px 15px;
+	}
+	main .section--4 .text {
+		margin-bottom: 30px;
+	}
+	main .section--4 .needs-wrapper {
+		grid-template-columns: 90%;
+    	justify-content: center;
+    	grid-row-gap:  25px;
+	}
+	main .section--4 .needs-item img {
+		margin-bottom: 15px;
+	}
+	main .section--4 .needs-item .title {
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	main .section--6 {
+		padding: 40px 15px;
+		background-image: url(../images/banner2-mobile.jpg);
+	}
+	main .section--6 .title {
+		font-size: 36px;
+		margin-bottom: 10px;
+	}
+	main .section--6 .text {
+		font-size: 18px;
+		margin-bottom: 330px;
+	}
+
+	main .section--7 {
+		padding: 30px 0px 40px;
+	}
+	main .section--7 .text {
+		margin-bottom: 30px;	
+	}
+	main .section--7 .professionals-wrapper {
+		display: flex;
+    align-items: center;
+    column-gap: 20px;
+	}
+	main .section--7 .professionals-wrapper .professionals-item {
+		display: block;
+	}
+	main .section--7 .professionals-wrapper img {
+		display: block;
+		clear: both;
+		margin: 0 auto 25px;
+	}
+	main .section--7 .professionals-wrapper .inst-logo img {
+		max-width: 268px !important;
+		margin-bottom: 15px !important;
+	}
+	main .section--7 .btn-nav {
+	    outline: 0;
+	    background: transparent;
+	    border: 0;
+	}
+	main .section--7 .btn-nav img {
+		width: 17px;
+	}
+	main .section--7 .slick-dots {
+		padding: 0;
+	    list-style: none;
+	    display: flex;
+	    column-gap: 20px;
+	    position: absolute;
+	    bottom: -20px;
+	    width: 100%;
+	    justify-content: center;
+	    align-items: center;
+	}
+	main .section--7 .slick-dots button {
+		font-size: 0;
+		border: 0;
+		background-color: var(--color-gray-medium);
+		aspect-ratio: 1;
+		width: 15px;
+		border-radius: 100%;
+	}
+	main .section--7 .slick-dots .slick-active button {
+		background-color: var(--color-blue);
+	}
+
+	main .section--8 .perks-item {
+		flex-direction: column-reverse;
+	}
+	main .section--8 .perks-item:nth-child(2) {
+		flex-direction: column;
+	}
+	main .section--8 .perks-image {
+		text-align: center;
+	}
+	main .section--8 .perks-item img {
+		max-width: 180px;
+		margin-bottom: 15px;
+	}
+	main .section--8 .perks-item .title {
+		font-size: 36px;
+	}
+	main .section--8 .perks-item .text {
+		font-size: 16px;
+	}
+	main .section--8 {
+	    padding: 50px 15px;
+	}
+	main .section--8 a {
+		font-size: 17px;
+		padding: 15px 20px;
+		margin: 30px auto 10px;
+    	white-space: nowrap;
+    	border: 1px solid var(--color-black);
+	}
+	main .section--8 .note {
+		font-size: 16px;
+	}
+
+	main .section--5,
+	main .section--9 {
+		padding: 40px 15px;
+	}
+	main .section--5 .text,
+	main .section--9 .text {
+		font-size: 24px;
+	}
+
+	main .section--10 {
+	    padding: 80px 0 0;
+	}
+	main .section--10 .program-wrapper {
+		grid-template-columns: 100%;
+		justify-content: center;
+	}
+	main .section--10 .program-wrapper .program-item {
+		padding: 50px 30px 30px;
+		margin-bottom: 40px;
+	}
+	main .section--10 .program-wrapper .program-item:nth-child(2) {
+		transform: scale(1.0);
+		margin-top: 40px;
+	}
+
+	main .section--11 .text {
+		margin-bottom: 20px;
+	}
+	main .section--11 .slick-item {
+		padding: 0;
+	}
+	main .section--11 .slick-item img {
+		width: 100%;
+		object-fit: cover;
+	}
+	main .section--11 .caption {
+		right: 0;
+	}
+
+	main .section--12 .title {
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	main .section--12 .question {
+		font-size: 20px;
+	}
+	main .section--12 .answer {
+		font-size: 16px;
+	}
+
+	footer .section--footer-copyright p {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	footer .section--footer-top .links a,
+	footer .section--footer-top .text {
+		font-weight: bold;
+		font-style: normal;
+	}
+}
